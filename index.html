@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyd-detektiven: Identifiser Lyden</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Identifiser lyden 🕵️‍♀️</h1>
+        <p id="instructions">Klikk på 'Spill lyd' og velg riktig IPA-symbol.</p>
+
+        <button id="playSoundButton">🔊 Spill lyd</button>
+
+        <div id="choices-container">
+            <!-- Valgknapper blir lagt til her av JavaScript -->
+        </div>
+
+        <div id="feedback-container">
+            <p id="feedback-text"></p>
+        </div>
+
+        <div id="score-container">
+             <!-- Score kan legges til her senere -->
+        </div>
+
+        <!-- Skjult lydspiller -->
+        <audio id="audioPlayer"></audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
